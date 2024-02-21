@@ -23,7 +23,7 @@ int main() {
 
     cout << "Your account name: " << spice.GetName() << endl;
 
-    spice.BankAccount(raux, balance);
+    spice.SetBalance(raux, balance);
     cout << "Your account name: " << spice.GetName() << " and the current balance: " << balance << endl;
 
     spice.Withdraw(withdraw);
