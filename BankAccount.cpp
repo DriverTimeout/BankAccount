@@ -34,6 +34,11 @@ string BankAccount::GetName() {
 }
 
 double BankAccount::GetBalance() {
+    if(withdraw>=500) { 
     double juio = deposit + (balance - withdraw);
     return juio;
+    }else{
+        double juio = deposit + (balance - withdraw);
+        return juio;
+    } 
 }
